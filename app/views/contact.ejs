@@ -1,0 +1,103 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<!-- <main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    <p>Contact me<br>Mobile no: 437-808-9520<br>Email: jmodha@my.centennial.ca</p>
+    </div>
+    </main> -->
+    
+    <!--bottom nav-->
+    
+    <!-- code for contact page -->
+            <div class="container">
+                <h2 id="contact" class="mob-h2 page-scroll" style="font-size: 56px; font-weight: 700; margin-top: 50px">
+                    <span class="low-highlight-cyan">Contact</span>
+                </h2>
+                <div class="contact-details mt-4">
+                    <div class="row">
+                        <div class="address col-12 col-md-6">
+                            <h4>Address</h4>
+                            <address>
+                                <strong>Jaydeep Modha</strong><br />
+                                58, Griffen Drive,<br />
+                                <br />
+                                <abbr title="Telephone">Call Me :</abbr><a href="tel:+14374291743"> +1 (437) 808-9520</a><br />
+                                <abbr title="Mail">Mail at :</abbr><a href="mailto:patelprem12320@gmail.com"> jaydeepmodha1@gmail.com</a>
+                            </address>
+                        </div>
+                    
+                        <div class="col-12 col-md-6 contact-form">
+                        <h4>Send Us a Message</h4>
+                        <form action="/home" id="contact-form">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="name">Fisrt Name</label>
+                                        <input type="text" id="first_name" name="first_name" class="form-control" placeholder="Fistr Name" required />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="name">Last Name</label>
+                                        <input type="text" id="last_name" name="last_name" class="form-control" placeholder="Last Name" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="telephone">Telephone</label>
+                                        <input type="tel" id="telephone" name="telephone" class="form-control" placeholder="9876543210" required />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="name">Email</label>
+                                        <input type="email" id="email" name="email" class="form-control" placeholder="example@email.com" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea">Message:</label>
+                                <textarea id="textarea" class="form-control" rows="5"
+                                    placeholder="Write your message here.." required></textarea>
+                            </div>
+                            <br />
+                            <button type="submit" class="btn btn-primary" onsubmit="showMessage()">Submit</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="google-map">
+                    <h4>Where To Find Me</h4>
+                    <div class="embed embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.8042007227414!2d-79.22666298455805!3d43.79767577911661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d0c0588be451%3A0x9555b70ce507d333!2s58%20Griffen%20Dr%2C%20Scarborough%2C%20ON%20M1B%201A3!5e0!3m2!1sen!2sca!4v1675952631360!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                </div>
+            </div>
+    
+            <h2  id="contact-social"
+              class="mob-connect enabledisable page-scroll"
+              style="font-size: 40px; font-weight: 700; margin-top: 50px"
+            >
+              <span class="low-highlight-hazeskin">Connect with me</span>
+            </h2>
+            <ul class="socialsites">
+              <li>
+                <a href="https://github.com/Patel-Prem"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/premkumar-patel-000897229/"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+  
+                    </div>
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
